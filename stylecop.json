@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+  "settings": 
+  {
+    "documentationRules": 
+    {
+      "copyrightText": "Copyright (c) {copyrightHolder}. All rights reserved.",
+      "variables": 
+      {
+        "copyrightHolder": "Jerick Svec"
+      },
+      "xmlHeader": true,
+      "headerDecoration": "--------------------------------------------"
+    },
+    "indentation": 
+    {
+      "indentationSize": 2,
+      "tabSize": 2,
+      "useTabs": false
+    },
+    "orderingRules": 
+    {
+      "blankLinesBetweenUsingGroups": "require",
+      "elementOrder": [ "kind", "constant", "accessibility", "static", "readonly" ],
+      "systemUsingDirectivesFirst": true
+    },
+    "namingRules": 
+    {
+      "includeInferredTupleElementNames": true,
+      "tupleElementNameCasing": "camelCase"
+    },
+    "maintainabilityRules": 
+    {
+      "topLevelTypes": 
+      [
+        "class",
+        "interface",
+        "struct",
+        "enum",
+        "delegate"
+      ]
+    },
+    "layoutRules": 
+    {
+      "newlineAtEndOfFile": "require",
+      "allowConsecutiveUsings": false
+    }
+  }
+}
