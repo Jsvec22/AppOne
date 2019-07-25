@@ -24,9 +24,9 @@ Documentation
 App One utitlizes StyleCop, the Ruleset can be found at:
 [AppOne.ruleset](/AppOne.ruleset)
 
-#GitHub
+# GitHub
 This Solution Repository is hosted on GitHub.
 The link is to the GitHub repository is: 
 
-#Author
+# Author
 Jerick Svec | jericksvec@gmail.com | 07/23/2019
