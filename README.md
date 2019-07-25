@@ -9,7 +9,7 @@
 # Introduction
 AppOne is a CRUD application to do something
 
-#Structure
+# Structure
 The existing solution structure is as follows:
 
 Documentation  
